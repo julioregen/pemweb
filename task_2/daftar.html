@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pendaftaran</title>
+    <style>
+        body {
+            background-color: rgba(33, 220, 16, 0.337);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            line-height: 1.6;
+        }
+        .container {
+            text-align: center;
+            padding: 25px;
+            border: 3px solid #a1a40f;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Form Pendaftaran</h1>
+        <form action="detail.html" method="GET">
+            <label for="nama">Nama:</label><br>
+            <input type="text" id="nama" name="nama"><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br>
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password"><br>
+            <input type="submit" value="Daftar">
+        </form>
+    </div>
+</body>
+</html>
